@@ -1,0 +1,17 @@
+a. Undo uncommited changes [ git checkout -- ]
+
+1. If you change something wrong and want to remove those changes from your local computer the use [ git checkout -- file_name.extension ]
+
+2. And if there are multiple files to undo the change then we can use the command [ git checkout -- . ] this will undo all the file changes on your local computer.
+
+b. Undo commited changes [ git revert ]
+
+Now, if you want to undo the commited code then you need the commit id which you get from the [ git log ] command.
+
+Way-1: After getting the commit id we will use command [ git revert commit_id ] and [ :q ] to close the ui. Finally the commit is deleted and it directly undo the commit.
+
+Way-2: If you want to undo the commit explicitely then you need to type [ git revert -n commit_id ] and finally commit the changes using [ git commit -m 'your comment' ] and you are done.
+
+c. Resetting changes [ git reset ]
+
+Now you realise that the changes you commited are wrong or the commits that you undo are wrong and want the code as before as it was then you need to copy the commit id from where you want to reset all the changes and follow the command [ git reset --hard commit_id ]. 

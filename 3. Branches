@@ -1,0 +1,24 @@
+What is the use of branches, why we use this?
+
+Suppose you want to do some experiment with your file then what we generally do is just make a duplicate copy of the file in which you want to make changes, so this can also be done on the cloud by the help of branches in git.
+
+1. To check the branches on your repository use the command [ git branch ]
+
+2. The default branch is master branch, and the active branch is represented by the star in front of the branch.
+
+3. To create a new branch use the command [ git branch new_branch_name ]
+
+4. To switch from the current branch to the new_branch we use the command [ git checkout new_branch ]
+
+5. Now add that particular file which you want to change by using command [ git add filename ] and [ git commit -m 'comment' ]
+
+6. Now you have two separate branches in which you can edit the changes as you want.
+
+7. Supppose you are done and want to MERGE the changes in the desired_branch then make sure you are in the that branch and if you are not then use the command [ git checkout branch_name ] and then you have to pull [ git pull ] your code before final push [ git push ] of the code.
+
+8. Now your code has been pushed but your branch is not shown on the github because you still not pushed the branch. So, to push the branch you need to switch on that branch [ git checkout branch_name ] and then [ git push ] in the description of the git push command there must be a command which you have to copy and paste in the terminal to push that branch.
+
+9. To create a new active branch we use the command [ git commit -b branch_name ]
+
+10. Now if you want to DELETE the branch then first checkout your master branch then use the command [ git branch -d branch_name ]
+

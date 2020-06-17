@@ -1,0 +1,6 @@
+Most commonly it is used in the open source world.
+
+How is it worked?
+1. First you have to open the repository which you want to pull and then fork that repository [ fork option is shown on the right corner of the open repository ] into your github account [ private repo will be created ]
+
+2. Then you make the changes in that code and push that on your private repo, and then click on the pull requests option then then add the meaningful comment there and create the pull request.

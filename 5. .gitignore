@@ -1,0 +1,7 @@
+Sometimes your project file size is too big (Node modules) that you can't upload or it will take extra time to get uploaded on the cloud and surely it is not a good idea.
+
+So, to ignore the files what we do is make a file name [ .gitignore ] which is a text file and put the folder name which you want to ignore.
+
+Inside the file of .gitignore
+	node_modules
+	*.pdf [ it will exclude all the pdf files ]

@@ -1,0 +1,3 @@
+Head is the reference to the most recent commit in the current branch. When you do [ git log ] then the first commit you see in the list is reference by the HEAD. It works like a linked list in which head is reference as the initial added commit.
+
+If you want to see the initial commit then use the command [ git show HEAD ] and suppose you want to see the second last commit then use the command [ git show HEAD~1 ] and third last by using [ git show HEAD~2 ]
